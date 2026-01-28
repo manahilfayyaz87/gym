@@ -24,7 +24,7 @@ A responsive, modern gym website built with Flask, HTML, CSS, and JavaScript. Fe
 ## 📁 Project Structure
 
 ```
-gym-website/
+/home/site/wwwroot/
 ├── app.py                    # Flask application & route handlers
 ├── README.md                 # Project documentation
 ├── requirements.txt          # Python dependencies
