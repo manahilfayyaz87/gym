@@ -1,0 +1,215 @@
+{% extends "base.html" %}
+
+{% block title %}Membership - IRON FORGE{% endblock %}
+
+{% block content %}
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <h1>Membership Plans</h1>
+        <p>Choose the plan that fits your fitness goals</p>
+    </div>
+</section>
+
+<!-- Pricing Cards Section -->
+<section class="pricing">
+    <div class="container">
+        <div class="pricing-intro">
+            <h2 class="section-title">Flexible Plans for Every Lifestyle</h2>
+            <p>From beginners to advanced athletes, we have a membership plan that works for you.</p>
+        </div>
+
+        <div class="pricing-cards">
+            <!-- Basic Plan -->
+            <div class="pricing-card">
+                <div class="plan-header">
+                    <h3>Basic</h3>
+                    <p class="plan-description">Perfect for getting started</p>
+                </div>
+                <div class="plan-price">
+                    <span class="currency">$</span><span class="amount">19</span><span class="period">/month</span>
+                </div>
+                <ul class="plan-features">
+                    <li>✓ Gym access during off-peak hours (6am-5pm weekdays)</li>
+                    <li>✓ Access to cardio equipment</li>
+                    <li>✓ Access to weight machines</li>
+                    <li>✓ Locker room & shower facilities</li>
+                    <li>✓ Monthly fitness assessment</li>
+                    <li>✗ Personal training sessions</li>
+                    <li>✗ Group fitness classes</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary btn-block">Get Started</a>
+            </div>
+
+            <!-- Standard Plan (Most Popular) -->
+            <div class="pricing-card featured">
+                <div class="popular-badge">MOST POPULAR</div>
+                <div class="plan-header">
+                    <h3>Standard</h3>
+                    <p class="plan-description">Our most popular choice</p>
+                </div>
+                <div class="plan-price">
+                    <span class="currency">$</span><span class="amount">49</span><span class="period">/month</span>
+                </div>
+                <ul class="plan-features">
+                    <li>✓ 24/7 unlimited gym access</li>
+                    <li>✓ All equipment access</li>
+                    <li>✓ Unlimited group fitness classes</li>
+                    <li>✓ Locker room & shower facilities</li>
+                    <li>✓ Monthly fitness assessment</li>
+                    <li>✓ 2 personal training sessions/month</li>
+                    <li>✓ Nutrition guidance</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary btn-block">Join Now</a>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="pricing-card">
+                <div class="plan-header">
+                    <h3>Premium</h3>
+                    <p class="plan-description">For serious fitness enthusiasts</p>
+                </div>
+                <div class="plan-price">
+                    <span class="currency">$</span><span class="amount">99</span><span class="period">/month</span>
+                </div>
+                <ul class="plan-features">
+                    <li>✓ 24/7 unlimited gym access</li>
+                    <li>✓ All equipment access</li>
+                    <li>✓ Unlimited group fitness classes</li>
+                    <li>✓ 8 personal training sessions/month</li>
+                    <li>✓ Personalized workout plans</li>
+                    <li>✓ Nutrition coaching & meal plans</li>
+                    <li>✓ Priority class booking & guest passes</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary btn-block">Get Started</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Comparison Table -->
+<section class="comparison">
+    <div class="container">
+        <h2 class="section-title">Plan Comparison</h2>
+        <div class="table-responsive">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Basic</th>
+                        <th>Standard</th>
+                        <th>Premium</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gym Access</td>
+                        <td>Off-peak only</td>
+                        <td>24/7</td>
+                        <td>24/7</td>
+                    </tr>
+                    <tr>
+                        <td>Equipment Access</td>
+                        <td>Cardio & Machines</td>
+                        <td>All Equipment</td>
+                        <td>All Equipment</td>
+                    </tr>
+                    <tr>
+                        <td>Group Classes</td>
+                        <td>—</td>
+                        <td>Unlimited</td>
+                        <td>Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td>Personal Training</td>
+                        <td>—</td>
+                        <td>2/month</td>
+                        <td>8/month</td>
+                    </tr>
+                    <tr>
+                        <td>Fitness Assessments</td>
+                        <td>Monthly</td>
+                        <td>Monthly</td>
+                        <td>Bi-weekly</td>
+                    </tr>
+                    <tr>
+                        <td>Nutrition Guidance</td>
+                        <td>—</td>
+                        <td>Basic</td>
+                        <td>Full Coaching</td>
+                    </tr>
+                    <tr>
+                        <td>Guest Passes</td>
+                        <td>—</td>
+                        <td>2/month</td>
+                        <td>Unlimited</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq">
+    <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3 class="faq-question">Can I cancel my membership anytime?</h3>
+                <p class="faq-answer">Yes! You can cancel your membership with 30 days' written notice. We offer a 7-day free trial so you can experience the gym before committing.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">Do I need to sign a long-term contract?</h3>
+                <p class="faq-answer">No contracts required. We offer flexible month-to-month memberships. We believe in earning your business every month through excellent service.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">Can I upgrade or downgrade my plan?</h3>
+                <p class="faq-answer">Absolutely! You can change your membership plan anytime. Changes take effect on your next billing cycle.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">Is there a sign-up fee?</h3>
+                <p class="faq-answer">No sign-up fees! We occasionally run promotions where we waive the first month, so ask about current offers when you visit.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">Are personal training sessions included?</h3>
+                <p class="faq-answer">Basic sessions are included with Standard and Premium memberships. Additional sessions can be purchased separately starting at $50/session.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">Can I bring a guest?</h3>
+                <p class="faq-answer">Yes! Basic members can bring guests for a small fee. Standard and Premium members get complimentary guest passes.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">What if I have questions about my fitness plan?</h3>
+                <p class="faq-answer">Our expert trainers are available to answer all your questions and create personalized fitness plans. Book a consultation with any of our staff.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">Do you offer student or corporate discounts?</h3>
+                <p class="faq-answer">Yes! We offer 15% discount for students and 20% discount for corporate groups (5+ members). Contact us for more details.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact/CTA Section -->
+<section class="cta-section">
+    <div class="container">
+        <h2>Ready to Join IRON FORGE?</h2>
+        <p>Visit us today for a free tour and start your fitness transformation</p>
+        <div class="contact-info">
+            <p><strong>Address:</strong> 123 Fitness Ave, Gym City, GC 12345</p>
+            <p><strong>Phone:</strong> (555) 123-4567</p>
+            <p><strong>Email:</strong> info@ironforge.com</p>
+            <p><strong>Hours:</strong> Mon-Fri 5am-11pm | Sat-Sun 7am-9pm</p>
+        </div>
+        <button class="btn btn-primary btn-lg" onclick="alert('Contact form would be here in a complete implementation')">Request Free Trial</button>
+    </div>
+</section>
+{% endblock %}
